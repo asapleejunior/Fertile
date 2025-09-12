@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-semi-bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "myr-regular";
+  src: url("../font/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "myr-bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Medium.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-semi-bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "myr-regular";
+  src: url("../font/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "myr-bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Medium.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+header .logo {
+  height: 75px;
+  width: 90px;
+}
+header nav {
+  height: 100px;
+  width: 452px;
+}
+header nav li {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+header nav li ul a {
+  color: #454545;
+  font-family: Arial;
+}
+header nav li ul a:hover {
+  color: #804551;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-semi-bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "myr-regular";
+  src: url("../font/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "myr-bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Medium.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main .partie1 {
+  height: 651px;
+}
+
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-semi-bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "myr-regular";
+  src: url("../font/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "myr-bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Medium.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main .partie2 .threepic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 372px;
+  align-items: center;
+}
+main .partie2 .threepic .cardi .imgi {
+  height: 218px;
+  width: 288px;
+}
+main .partie2 .threepic .cardi .imgi:hover {
+  height: 258px;
+  width: 328px;
+}
+main .partie2 .threepic .cardi .imgi {
+  height: 218px;
+  width: 288px;
+}
+main .partie2 .threepic .cardi .imgi:hover {
+  height: 258px;
+  width: 328px;
+}
+main .partie2 .threepic .cardi .imgi {
+  height: 218px;
+  width: 288px;
+}
+main .partie2 .threepic .cardi .imgi:hover {
+  height: 258px;
+  width: 328px;
+}
+main .partie2 .threepic .card1, main .partie2 .threepic .card3, main .partie2 .threepic .card2 {
+  height: 411px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+main .partie2 .threepic .card1 .title1, main .partie2 .threepic .card3 .title1, main .partie2 .threepic .card3 .title3, main .partie2 .threepic .card2 .title1, main .partie2 .threepic .card2 .title2 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #756a6a;
+}
+main .partie2 .threepic .card1 .Lorem1, main .partie2 .threepic .card3 .Lorem1, main .partie2 .threepic .card3 .Lorem3, main .partie2 .threepic .card2 .Lorem1, main .partie2 .threepic .card2 .Lorem2 {
+  color: #756a6a;
+  font-size: 14px;
+  text-align: center;
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "pop-regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-semi-bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "myr-regular";
+  src: url("../font/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "myr-bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+@font-face {
+  font-family: "pop-bold";
+  src: url("../font/Poppins-Medium.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  height: 300px;
+  background-color: #804551;
+  margin-top: 58px;
+}
+footer .Copyright {
+  color: #fefefe;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  padding: 125px;
+}
+
+/*# sourceMappingURL=style.css.map */

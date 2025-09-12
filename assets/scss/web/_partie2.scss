@@ -1,0 +1,81 @@
+@import "../core/dir-core";
+main{
+    .partie2{
+        .threepic{
+            @for $i from 1 through 3{
+                .card#{i}{
+                    .img#{i}{
+                        height: 218px;
+                    width: 288px;
+                    &:hover{
+                        height: 258px;
+                        width: 328px;
+                    }
+
+                    }
+                }
+            }
+            @include mixin-row;
+            .card1{
+                height: 411px;
+                width: 310px;
+                // border: 5px double black;
+                @include mixin-column;
+                .img1{
+                    
+                }
+                .title1{
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: $font-family;
+                    color: $text-color;
+
+                }
+                .Lorem1{
+                    color: $text-color;
+                    font-size: 14px;
+                    text-align: center;
+                    // border: 5px double red;
+
+                }
+            }
+            .card2{
+                @extend .card1;
+                .img2{
+                    // height: 218px;
+                    // width: 288px;
+                    // &:hover{
+                    //     height: 258px;
+                    //     width: 328px;
+                    // }
+
+                }
+                .title2{
+                    @extend .title1;
+                }
+                .Lorem2{
+                    @extend .Lorem1;
+                }
+            }
+            .card3{
+                @extend .card1;
+                .img3{
+                    // height: 218px;
+                    // width: 288px;
+                    // &:hover{
+                    //     height: 258px;
+                    //     width: 328px;
+                    // }
+                }
+                .title3{
+                    @extend .title1;
+
+                }
+                .Lorem3{
+                    @extend .Lorem1;
+                    
+                }
+            }
+        }
+    }
+}

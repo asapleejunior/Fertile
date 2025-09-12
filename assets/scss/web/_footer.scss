@@ -1,0 +1,14 @@
+@import "../core/dir-core";
+footer{
+    height: 300px;
+    background-color: $footer;
+    margin-top: 58px;
+    .Copyright{
+        color: $copyright;
+        font-size: 30px;
+        font-family: Arial;
+        text-align: center;
+        padding: 125px;
+        
+    }
+}
